@@ -1,0 +1,14 @@
+import java.util.LinkedList;
+
+public class List {
+    public static void main(String[] args) {
+        LinkedList<String> l = new LinkedList<String>();
+        l.add("abc");
+        l.add("cde");
+        l.add("fgh");
+        System.out.print("value add" + l);
+        System.out.print("\n");
+        l.remove("cde");
+        System.out.print("value remove" + l);
+    }
+}
