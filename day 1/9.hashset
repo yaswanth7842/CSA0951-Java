@@ -1,0 +1,18 @@
+import java.util.HashSet;
+
+public class hashmap {
+        public static void main(String[] args) {
+            HashSet<String> l = new HashSet<String>();
+            l.add("abc");
+            l.add("cde");
+            l.add("fgh");
+            System.out.print("value add" + l);
+            System.out.print("\n");
+            l.remove("cde");
+            System.out.print("value remove" + l);
+            System.out.print("\n");
+            l.clear();
+            System.out.print("hash clear"+l);
+
+        }
+    }
