@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Stack;
+
+public class stack {
+    public static void main(String[] args) {
+        Stack<String> l= new Stack<String>();
+        l.push("abc");
+        l.push("cde");
+        l.push("fgh");
+        System.out.print("value push"+l);
+        System.out.print("\n");
+        l.pop();
+        System.out.print("value pop"+l);
+    }
+}
