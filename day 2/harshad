@@ -1,0 +1,18 @@
+public class harshad {
+    public static void main(String[] args){
+        int num=37;
+        int a=0;
+        int n=num;
+        while(num>0) {
+            int temp = num % 10;
+            a = a+temp;
+            num=num/10;
+        }
+        if(n%a==0){
+            System.out.println("hashad no is");
+        }
+        else{
+            System.out.println("not hashad no is");
+        }
+    }
+}
