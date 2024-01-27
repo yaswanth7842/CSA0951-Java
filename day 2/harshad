@@ -1,15 +1,19 @@
-public class harshad {
+import java.util.Scanner;
+public class harshat {
     public static void main(String[] args){
-        int num=37;
-        int a=0;
+        Scanner a=new Scanner(System.in);
+        System.out.println("enter hashad no:");
+        int num=a.nextInt();
+        int b=0;
         int n=num;
         while(num>0) {
             int temp = num % 10;
-            a = a+temp;
+            b = b+temp;
             num=num/10;
         }
-        if(n%a==0){
-            System.out.println("hashad no is");
+        int result=n/b;
+        if(n%b==0){
+            System.out.println("hashad no is"+result);
         }
         else{
             System.out.println("not hashad no is");
